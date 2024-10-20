@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // Tempat hasil kompilasi .js
+    "rootDir": "./src", // Tempat file .ts
+    "target": "es6", // Versi ECMAScript yang digunakan
+    "module": "commonjs", // Sistem modul yang digunakan (umumnya CommonJS untuk Node.js)
+    "strict": true, // Strict mode
+    "esModuleInterop": true, // Membolehkan interoperabilitas dengan module ES6
+    "skipLibCheck": true // Melewati pemeriksaan type library
+  },
+  "include": [
+    "src/**/*.ts", // Mengkompilasi semua .ts di dalam folder src
+    "src/log.ts"
+  ]
+}
